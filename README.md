@@ -7,7 +7,7 @@ Pour **Brave** / **Chrome**, elle actualise automatiquement l’onglet actif à 
 ## Installation (Brave / Chrome)
 
 1. **Télécharger**
-   - Copie les fichiers nécessaires (`manifest.json`, `background.js`, `index.html`, `popup.js`, le dossier `pkg/`, et `icons/`) dans un dossier `randomizer/`.
+   - Copie les fichiers nécessaires (`manifest.json`, `background.js`, `index.html`, `popup.js`, le dossier `pkg/`, et `icons/`) dans un dossier `randomize/`.
 
 2. **Ouvre la page des extensions**
    - Dans Chrome : `chrome://extensions/`
@@ -18,7 +18,7 @@ Pour **Brave** / **Chrome**, elle actualise automatiquement l’onglet actif à 
 
 4. **Charge l’extension**
    - Clique sur **Charger l’extension non empaquetée**.  
-   - Sélectionne le dossier `randomizer/`.
+   - Sélectionne le dossier `randomize/`.
 
 5. L’extension apparaît dans la barre d’outils
 
