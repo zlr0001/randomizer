@@ -1,0 +1,15 @@
+{
+  "name": "randomize",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "randomize_bg.wasm",
+    "randomize.js",
+    "randomize.d.ts"
+  ],
+  "main": "randomize.js",
+  "types": "randomize.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

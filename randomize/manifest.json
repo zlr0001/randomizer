@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Randomize Auto Refresh",
+  "version": "1.0",
+  "description": "Rafraîchit automatiquement l’onglet actif à un intervalle aléatoire défini par l’utilisateur.",
+  "permissions": [
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Randomize Auto Refresh"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "64": "icons/icon64.png",
+    "128": "icons/icon128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  }
+}
