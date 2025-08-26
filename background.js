@@ -48,7 +48,7 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
 
   if (msg.action === "toggle") {
     enabled = msg.enabled;
-    console.log(`▶️ Rafraîchissement ${enabled ? "activé" : "désactivé"}`);
+    console.log(`Rafraîchissement ${enabled ? "activé" : "désactivé"}`);
     if (enabled) startTimer();
     else {
       if (timer) clearTimeout(timer);
